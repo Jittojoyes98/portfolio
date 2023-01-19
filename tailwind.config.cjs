@@ -56,6 +56,12 @@ module.exports = {
         },
       },
     },
+    screens: {
+      large: { max: "992px" },
+      medium: { max: "768px" },
+      mediumSmall: { max: "576px" },
+      small: { max: "350px" },
+    },
   },
   plugins: [],
 };
