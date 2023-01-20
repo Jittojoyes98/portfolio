@@ -4,15 +4,15 @@ const Navbar = () => {
   return (
     <div
       className="flex fixed z-10 top-0  h-32 py-8 px-0   justify-between container bg-body-color large:top-auto large:bottom-0
-    large:py-1 large:h-16
+    large:py-1 large:h-16 large:ml-0 large:rounded-t-lg  large:ml-0
     "
     >
       <a href="/" className="mt-0.5">
-        <h1 className={`${toggle ? "hidden" : "block"}`}>Jitto</h1>
+        <h1 className={`${toggle ? "large:hidden" : "block"}`}>Jitto</h1>
       </a>
       <ul
         className={`flex justify-around items-center w-96 font-medium  duration-300 ${
-          toggle ? "block gap-16" : " hidden"
+          toggle ? "large:gap-16" : "large:hidden"
         }`}
       >
         <li className=" cursor-pointer  text-title-color hover:text-title-color-dark">
@@ -92,7 +92,7 @@ const Navbar = () => {
         </li>
       </ul>
 
-      <div className="hidden large:mr-14 large:block m-auto ml-0">
+      <div className="hidden large:mr-10 large:block m-auto ml-0">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           viewBox="0 0 24 24"
