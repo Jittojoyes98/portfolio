@@ -12,6 +12,7 @@ module.exports = {
       "body-color": "#fafafa",
       "container-color": "#fff",
       "icon-color": "#6462df",
+      "box-color": "#0000001a",
     },
     fontFamily: {
       poppins: ["Poppins", "sans-serif"],

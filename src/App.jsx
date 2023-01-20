@@ -4,6 +4,7 @@ import "./App.css";
 import Navbar from "./components/Navbar";
 import Home from "./components/Home";
 import ScrollDown from "./components/ScrollDown";
+import About from "./components/About";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -13,6 +14,7 @@ function App() {
       <Navbar />
       <Home />
       <ScrollDown />
+      <About />
     </div>
   );
 }
