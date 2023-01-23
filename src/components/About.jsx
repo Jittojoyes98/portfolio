@@ -2,8 +2,8 @@ import React from "react";
 
 const About = () => {
   return (
-    <div className="section">
-      <div className="flex justify-center flex-col gap-10" id="about">
+    <div className="section" id="about">
+      <div className="flex justify-center flex-col gap-10">
         <div>
           <h1 className="text-center">About Me</h1>
           <p className="text-center">Introduction</p>
@@ -15,7 +15,7 @@ const About = () => {
           me about me{" "}
         </p>
         <div className="flex gap-2 justify-center">
-          <div className="basis-2/6 text-center border-1 border-box-color border-solid bg-container-color rounded-xl py-5 px-4 ">
+          <div className="basis-2/6 text-center border-1 border-box-color border-solid bg-container-color rounded-xl py-5 px-4 large:py-4 large:px-3 ">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width={"24"}
@@ -28,7 +28,7 @@ const About = () => {
             <h3>Experience</h3>
             <p className="pt-1">6 Months Experience</p>
           </div>
-          <div className="basis-2/6 text-center border-1 border-box-color border-solid bg-container-color rounded-xl py-5 px-4">
+          <div className="basis-2/6 text-center border-1 border-box-color border-solid bg-container-color rounded-xl py-5 px-4 large:py-4 large:px-3">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width={24}
@@ -40,7 +40,7 @@ const About = () => {
             <h3>Open Source</h3>
             <p className="pt-1">Occasional Open Source Contributor</p>
           </div>
-          <div className="basis-2/6 text-center border-1 border-box-color border-solid bg-container-color rounded-xl py-5 px-4">
+          <div className="basis-2/6 text-center border-1 border-box-color border-solid bg-container-color rounded-xl py-5 px-4 large:py-4 large:px-3">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="24"
@@ -57,7 +57,8 @@ const About = () => {
           <a
             href=""
             download=""
-            className="flex button button--flex w-3/12 gap-2"
+            className="flex button button--flex w-3/12 gap-2 large:p-4"
+            // change this if required
           >
             Download Resume
             <svg
