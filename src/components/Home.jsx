@@ -127,7 +127,7 @@ const Home = () => {
             development for delightful user-experience.
           </p>
           <div className="mt-16">
-            <button className="bg-title-color-dark text-container-color font-semibold flex p-4 rounded-xl">
+            <button className="bg-title-color text-container-color font-semibold flex p-4 rounded-xl hover:bg-title-color-dark">
               Say Hello{" "}
               <svg
                 className="button__icon"

@@ -4,8 +4,7 @@ const Navbar = () => {
   return (
     <div
       className="flex fixed z-10 top-0  h-32 py-8 px-0   justify-between container bg-body-color large:top-auto large:bottom-0
-    large:py-1 large:h-16 large:ml-0 large:rounded-t-lg  large:ml-0
-    "
+    large:py-1 large:h-16 large:rounded-t-lg  large:left-0  large:ml-0"
     >
       <a href="/" className="mt-0.5">
         <h1 className={`${toggle ? "large:hidden" : "block"}`}>Jitto</h1>
