@@ -6,11 +6,11 @@ const Navbar = () => {
       className="flex fixed z-10 top-0  h-32 py-8 px-0   justify-between container bg-body-color large:top-auto large:bottom-0
     large:py-1 large:h-16 large:rounded-t-lg  large:left-0  large:ml-0"
     >
-      <a href="/" className="mt-0.5">
+      <a onClick={() => scrollTo(0, 0)} className="mt-0.5 cursor-pointer">
         <h1 className={`${toggle ? "large:hidden" : "block"}`}>Jitto</h1>
       </a>
       <ul
-        className={`flex justify-around items-center w-96 font-medium  duration-300 ${
+        className={`flex justify-around items-center gap-8 w-96 font-medium  duration-300 ${
           toggle ? "large:gap-16" : "large:hidden"
         }`}
       >
@@ -42,7 +42,9 @@ const Navbar = () => {
               d="M15.71,12.71a6,6,0,1,0-7.42,0,10,10,0,0,0-6.22,8.18,1,1,0,0,0,2,.22,8,8,0,0,1,15.9,0,1,1,0,0,0,1,.89h.11a1,1,0,0,0,.88-1.1A10,10,0,0,0,15.71,12.71ZM12,12a4,4,0,1,1,4-4A4,4,0,0,1,12,12Z"
             />
           </svg>
-          <span className="inline-block">About</span>
+          <span className="inline-block" href="#about">
+            About
+          </span>
         </li>
         <li className=" cursor-pointer text-title-color hover:text-title-color-dark">
           <svg
@@ -59,6 +61,24 @@ const Navbar = () => {
           </svg>
           <span className="inline-block">Skills</span>
         </li>
+
+        {/* new thing */}
+        <li className=" cursor-pointer text-title-color hover:text-title-color-dark">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+            width={"24"}
+            height={"24"}
+            className="fill-title-color hover:fill-title-color-dark hidden large:block m-auto"
+          >
+            <path
+              // fill="var(--title-color)"
+              d="M20.34,9.32l-14-7a3,3,0,0,0-4.08,3.9l2.4,5.37h0a1.06,1.06,0,0,1,0,.82l-2.4,5.37A3,3,0,0,0,5,22a3.14,3.14,0,0,0,1.35-.32l14-7a3,3,0,0,0,0-5.36Zm-.89,3.57-14,7a1,1,0,0,1-1.35-1.3l2.39-5.37A2,2,0,0,0,6.57,13h6.89a1,1,0,0,0,0-2H6.57a2,2,0,0,0-.08-.22L4.1,5.41a1,1,0,0,1,1.35-1.3l14,7a1,1,0,0,1,0,1.78Z"
+            />
+          </svg>
+          <span className="inline-block">Journey</span>
+        </li>
+        {/* new thing */}
         <li className=" cursor-pointer text-title-color hover:text-title-color-dark">
           <svg
             xmlns="http://www.w3.org/2000/svg"

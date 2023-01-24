@@ -163,6 +163,18 @@ img {
 .button:hover {
   background-color: var(--title-color-dark);
 }
+.button-p {
+  display: inline-block;
+  background-color: var(--title-color);
+  color: var(--container-color);
+  padding: 1.25rem 1rem;
+  border-radius: 1rem;
+  font-weight: var(--font-medium);
+}
+
+.button-p:hover {
+  background-color: var(--title-color-dark);
+}
 
 .button__icon {
   margin-left: var(--mb-0-5);
