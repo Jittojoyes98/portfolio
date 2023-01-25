@@ -23,6 +23,7 @@ module.exports = {
       "big-font": "3.5rem",
       "small-font-size": "0.875rem",
       "medium-size": "1.25rem",
+      "svg-size": "1.8rem",
     },
     extend: {
       boxShadow: {
@@ -62,6 +63,10 @@ module.exports = {
       medium: { max: "768px" },
       mediumSmall: { max: "576px" },
       small: { max: "350px" },
+    },
+    gridTemplateColumns: {
+      layout: "1fr max-content 1fr",
+      education: "0.5fr",
     },
   },
   plugins: [],

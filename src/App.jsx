@@ -7,6 +7,7 @@ import ScrollDown from "./components/ScrollDown";
 import About from "./components/About";
 import Skills from "./components/Skills";
 import Projects from "./components/Projects";
+import Journey from "./components/Journey";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -18,6 +19,7 @@ function App() {
       <ScrollDown />
       <About />
       <Skills />
+      <Journey />
       <Projects />
     </div>
   );
