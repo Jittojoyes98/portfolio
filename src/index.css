@@ -18,6 +18,8 @@
   --text-color: hsl(var(--hue), var(--sat), 46%);
   --body-color: hsl(var(--hue), var(--sat), 98%);
   --container-color: #fff;
+  --icon-color: #6462df;
+  --icon-color-dark: #5351b3;
 
   /*========== Font and typography ==========*/
   --body-font: "Poppins", sans-serif;
@@ -111,6 +113,11 @@ button {
   border: none;
   outline: none;
 }
+.button-tag {
+  cursor: pointer;
+  border: none;
+  outline: none;
+}
 
 img {
   max-width: 100%;
@@ -148,7 +155,7 @@ img {
   margin-right: auto;
 }
 
-.grid {
+.grid-root {
   display: grid;
   gap: 1.5rem;
 }
@@ -166,6 +173,20 @@ img {
 .button:hover {
   background-color: var(--title-color-dark);
 }
+
+.button-tag {
+  display: inline-block;
+  background-color: var(--icon-color);
+  color: var(--container-color);
+  padding: 0.25rem 0.5rem;
+  border-radius: 0.6rem;
+  font-weight: var(--smaller-font-size);
+}
+
+.button-tag:hover {
+  background-color: var(--icon-color-dark);
+}
+
 .button-p {
   display: inline-block;
   background-color: var(--title-color);

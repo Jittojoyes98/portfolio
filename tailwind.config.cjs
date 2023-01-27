@@ -25,6 +25,9 @@ module.exports = {
       "medium-size": "1.25rem",
       "svg-size": "1.8rem",
     },
+    minHeight: {
+      "1/4": "25%",
+    },
     extend: {
       boxShadow: {
         sm: "0 1px 0px 0 rgb(0 0 0 / 0.05)",
@@ -65,8 +68,9 @@ module.exports = {
       small: { max: "350px" },
     },
     gridTemplateColumns: {
-      layout: "1fr max-content 1fr",
+      layout: "1fr 1fr",
       education: "0.5fr",
+      projects: "repeat(2,1fr)",
     },
   },
   plugins: [],
