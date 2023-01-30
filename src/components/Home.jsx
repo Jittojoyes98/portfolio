@@ -120,7 +120,7 @@ const Home = () => {
             <div className="w-2/12 flex items-center pr-4">
               <div className="h-0.5 w-full bg-text-color "></div>
             </div>
-            <h2 className="text-title-color font-normal">Software Engineer</h2>
+            <h2 className="text-title-color font-normal">Software Developer</h2>
           </div>
           <p className="pt-4">
             I'm a Kerala-based Software Engineer, focusing on front-end

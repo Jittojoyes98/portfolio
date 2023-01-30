@@ -22,7 +22,7 @@ const Projects = () => {
     },
   ];
   return (
-    <div className="section" id="#projects">
+    <div className="section" id="projects">
       <div className="flex justify-center flex-col gap-10">
         <div>
           <h1 className="text-center">Projects</h1>

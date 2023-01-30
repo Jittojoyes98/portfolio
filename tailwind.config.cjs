@@ -13,6 +13,7 @@ module.exports = {
       "container-color": "#fff",
       "icon-color": "#6462df",
       "box-color": "#0000001a",
+      "input-border": "rgba(0,0,0,0.3)",
     },
     fontFamily: {
       poppins: ["Poppins", "sans-serif"],
@@ -23,6 +24,8 @@ module.exports = {
       "big-font": "3.5rem",
       "small-font-size": "0.875rem",
       "medium-size": "1.25rem",
+      "meduim-small-font-size": "1rem",
+
       "svg-size": "1.8rem",
     },
     minHeight: {
@@ -72,6 +75,13 @@ module.exports = {
       education: "0.5fr",
       projects: "repeat(2,1fr)",
     },
+    zIndex: {
+      1: "1",
+      10: "10",
+    },
+    // padding: {
+    //   0.75: "0.75rem",
+    // },
   },
   plugins: [],
 };

@@ -9,6 +9,7 @@ import Skills from "./components/Skills";
 import Projects from "./components/Projects";
 import Journey from "./components/Journey";
 import Contact from "./components/Contact";
+import Footer from "./components/Footer";
 
 function App() {
   const [count, setCount] = useState(0);

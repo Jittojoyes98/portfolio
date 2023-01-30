@@ -157,7 +157,7 @@ img {
 
 .grid-root {
   display: grid;
-  gap: 1.5rem;
+  gap: 2rem;
 }
 
 /*=============== BUTTONS ===============*/
@@ -171,6 +171,19 @@ img {
 }
 
 .button:hover {
+  background-color: var(--title-color-dark);
+}
+
+.button-send {
+  display: inline-block;
+  background-color: var(--title-color);
+  color: var(--container-color);
+  padding: 1rem 1rem;
+  border-radius: 1rem;
+  font-weight: var(--font-medium);
+}
+
+.button-send:hover {
   background-color: var(--title-color-dark);
 }
 

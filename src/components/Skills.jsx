@@ -2,7 +2,7 @@ import React from "react";
 
 const Skills = () => {
   return (
-    <div className="section" id="#skills">
+    <div className="section" id="skills">
       <div className="flex justify-center flex-col gap-10">
         <div>
           <h1 className="text-center">Skills</h1>
