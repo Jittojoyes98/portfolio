@@ -8,6 +8,7 @@ import About from "./components/About";
 import Skills from "./components/Skills";
 import Projects from "./components/Projects";
 import Journey from "./components/Journey";
+import Contact from "./components/Contact";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -21,6 +22,7 @@ function App() {
       <Skills />
       <Journey />
       <Projects />
+      <Contact />
     </div>
   );
 }

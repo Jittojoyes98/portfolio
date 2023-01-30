@@ -63,37 +63,42 @@ const Journey = () => {
         <div
           className={`${
             index === 1
-              ? "grid grid-cols-layout gap-y-6 max-w-3xl m-auto"
+              ? "grid grid-cols-layout  max-w-3xl m-auto w-1/2"
               : "hidden"
           } `}
         >
-          <div className="flex justify-center gap-8">
+          <div className="flex justify-between">
             <div>
               <h3>Front-end Intern</h3>
               <span>Xena Intelligence</span>
-              <div className="flex gap-2">
+              <div className="flex gap-2 mt-3">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width={24}
                   height={24}
                   viewBox="0 0 24 24"
+                  className="fill-title-color hover:fill-title-color-dark"
                 >
                   <path d="M7 11h2v2H7zm0 4h2v2H7zm4-4h2v2h-2zm0 4h2v2h-2zm4-4h2v2h-2zm0 4h2v2h-2z" />
                   <path d="M5 22h14c1.103 0 2-.897 2-2V6c0-1.103-.897-2-2-2h-2V2h-2v2H9V2H7v2H5c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2zM19 8l.001 12H5V8h14z" />
                 </svg>
-                <span>Dec 2021</span>
+                <span className="text-title-color-dark">
+                  Dec 2021 - Jan 2022
+                </span>
               </div>
             </div>
-            <div>
+            <div className="translate-x-1.5">
               {/* round */}
               <span className=" inline-block w-3 h-3 bg-icon-color rounded-full"></span>
               {/* line */}
               <span className="block w-px h-full bg-text-color line"></span>
             </div>
           </div>
+          <div className=""></div>
+          <div className=""></div>
 
-          <div className="flex justify-center gap-8">
-            <div>
+          <div className="flex justify-between">
+            <div className="-translate-x-1.5">
               {/* round */}
               <span className=" inline-block w-3 h-3 bg-icon-color rounded-full"></span>
               {/* line */}
@@ -102,56 +107,63 @@ const Journey = () => {
             <div>
               <h3>Software Developer</h3>
               <span>Qburst</span>
-              <div className="flex gap-2">
+              <div className="flex gap-2 mt-3">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width={24}
                   height={24}
                   viewBox="0 0 24 24"
+                  className="fill-title-color hover:fill-title-color-dark"
                 >
                   <path d="M7 11h2v2H7zm0 4h2v2H7zm4-4h2v2h-2zm0 4h2v2h-2zm4-4h2v2h-2zm0 4h2v2h-2z" />
                   <path d="M5 22h14c1.103 0 2-.897 2-2V6c0-1.103-.897-2-2-2h-2V2h-2v2H9V2H7v2H5c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2zM19 8l.001 12H5V8h14z" />
                 </svg>
-                <span>2023 - Present</span>
+                <span className="text-title-color-dark">
+                  Jul 2022- Jan 2023{" "}
+                </span>
               </div>
             </div>
           </div>
         </div>
         {/* education data */}
+
         <div
           className={`${
             index === 0
-              ? "grid grid-cols-layout gap-y-6 max-w-3xl m-auto"
+              ? "grid grid-cols-layout  max-w-3xl m-auto w-1/2"
               : "hidden"
           } `}
         >
-          <div className="flex justify-center gap-8">
+          <div className="flex justify-between">
             <div>
               <h3>Higher Secondary</h3>
               <span>St:Mary's Public school</span>
-              <div className="flex gap-2">
+              <div className="flex gap-2 mt-3">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width={24}
                   height={24}
                   viewBox="0 0 24 24"
+                  className="fill-title-color hover:fill-title-color-dark"
                 >
                   <path d="M7 11h2v2H7zm0 4h2v2H7zm4-4h2v2h-2zm0 4h2v2h-2zm4-4h2v2h-2zm0 4h2v2h-2z" />
                   <path d="M5 22h14c1.103 0 2-.897 2-2V6c0-1.103-.897-2-2-2h-2V2h-2v2H9V2H7v2H5c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2zM19 8l.001 12H5V8h14z" />
                 </svg>
-                <span>2015-17</span>
+                <span className="text-title-color-dark">2015-17</span>
               </div>
             </div>
-            <div>
+            <div className="translate-x-1.5">
               {/* round */}
               <span className=" inline-block w-3 h-3 bg-icon-color rounded-full"></span>
               {/* line */}
               <span className="block w-px h-full bg-text-color line"></span>
             </div>
           </div>
+          <div className=""></div>
+          <div className=""></div>
 
-          <div className="flex justify-center gap-8">
-            <div>
+          <div className="flex justify-between">
+            <div className="-translate-x-1.5">
               {/* round */}
               <span className=" inline-block w-3 h-3 bg-icon-color rounded-full"></span>
               {/* line */}
@@ -160,17 +172,18 @@ const Journey = () => {
             <div>
               <h3>B-Tech</h3>
               <span>Cochin University</span>
-              <div className="flex gap-2">
+              <div className="flex gap-2 mt-3">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width={24}
                   height={24}
                   viewBox="0 0 24 24"
+                  className="fill-title-color hover:fill-title-color-dark"
                 >
                   <path d="M7 11h2v2H7zm0 4h2v2H7zm4-4h2v2h-2zm0 4h2v2h-2zm4-4h2v2h-2zm0 4h2v2h-2z" />
                   <path d="M5 22h14c1.103 0 2-.897 2-2V6c0-1.103-.897-2-2-2h-2V2h-2v2H9V2H7v2H5c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2zM19 8l.001 12H5V8h14z" />
                 </svg>
-                <span>2018-22</span>
+                <span className="text-title-color-dark">2018-22</span>
               </div>
             </div>
           </div>
